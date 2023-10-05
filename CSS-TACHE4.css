@@ -1,0 +1,478 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar ul{
+    /* border: 0px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li{
+   padding: 45px;
+   display: flex;
+}
+
+.partie2{
+    background-image: url(IMAGE-VERTE.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    height: 450px;
+    padding-top: 100px;
+    margin-right: -10px;
+    width: 1300px;
+    margin-left: -10px;
+}
+
+.photo{
+    padding: 50px;
+    padding-left: 550px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+}
+
+.photo img{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.titre{
+    color: white;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: gray;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.phrase{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.partie3{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.contenu{
+    padding: 50px;
+}
+
+.image{
+    width: 50%;
+    height: 50%;
+    padding: -40px;
+    border-radius: 50%; 
+    border: 2px solid rgb(35, 147, 52);
+    margin-left: 65px;
+}
+
+.image img{
+    width: 65px;
+    height: 50px;
+    padding: 80px; 
+    padding-left: 45px;
+    padding-top: 60px;
+
+}
+
+h3{
+    text-align: center;
+    padding-left: -10px;
+}
+
+p1{
+    margin-left: 20px;
+}
+
+p2{
+    margin-left: 40px;
+}
+
+
+
+.partie4{
+    border: 1px solid rgb(225, 221, 221);
+    background-color: rgb(225, 221, 221);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-left: -10px;
+    width: 1300px;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+.barre ul{
+    display: flex;
+    justify-content: center;
+}
+
+.barre li{
+    padding: 45px;
+    display: flex;
+}
+
+/* .partie5{
+    display: flex;
+} */
+
+
+
+.ligne1{
+    display: flex;
+    margin-left: -10px;
+}
+
+.photo1 img{
+    width: 320px;
+    height: 250px;
+}
+
+.photo2 img{
+    width: 320px;
+    height: 250px;
+}
+
+.photo3 img{
+    width: 320px;
+    height: 250px;
+}
+
+.photo4 img{
+    width: 320px;
+    height: 250px;
+}
+
+.ligne2{
+    display: flex;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.photo5 img{
+    width: 320px;
+    height: 250px;
+}
+
+.photo6 img{
+    width: 320px;
+    height: 250px;
+}
+
+.photo7 img{
+    width: 320px;
+    height: 250px;
+}
+
+.photo8 img{
+    width: 341px;
+    height: 250px;
+}
+
+
+p3{
+    margin-left: 300px;
+    
+}
+
+p4{
+    margin-left: 500px;
+}
+
+
+
+
+
+.partie6{
+    margin-bottom: 130px;
+    padding-top: 60px;
+}
+
+.progress1{
+    width: 400px;
+    height: 13px;
+    background-color: rgb(43, 130, 101);
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 5px 5px 5px 5px;
+}
+.progress--text1{
+    margin-left: 350px;
+    position: relative;
+    bottom: 90px;
+}
+
+
+
+.progress2{
+    width: 400px;
+    height: 13px;
+    background-color: rgb(175, 174, 174);
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 5px 5px 5px 5px;
+} 
+.progress--file2{
+    width: 90%;
+    height: 13px;
+    background-color: rgb(43, 130, 101);
+    border-radius: 5px;
+    position: relative;
+    bottom: 62px;
+} 
+.progress--text2{
+    margin-left: 350px;
+    bottom: 102px;
+    position: relative;
+}
+
+
+
+.progress3{
+    width: 400px;
+    height: 13px;
+    background-color: rgb(175, 174, 174);
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 5px 5px 5px 5px;
+} 
+.progress--file3{
+    width: 80%;
+    height: 13px;
+    background-color: rgb(43, 130, 101);
+    border-radius: 5px;
+    position: relative;
+    bottom: 62px;
+}
+.progress--text3{
+    margin-left: 350px;
+    margin-top: 100px;
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+.progress4{
+    width: 400px;
+    height: 13px;
+    background-color: rgb(175, 174, 174);
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 5px 5px 5px 5px;
+} 
+.progress--file4{
+    width: 60%;
+    height: 13px;
+    background-color: rgb(43, 130, 101);
+    border-radius: 5px;
+} 
+
+
+
+.block1{
+    display: flex;
+    margin-left: 80px;
+    gap: 80px;
+}
+
+.block2{
+    display: flex;
+    margin-left: 80px;
+    gap: 80px;
+    margin-top: -20px;
+}
+
+
+h4{
+   position: relative;
+   bottom: 50px;
+}
+
+
+
+.partie7{
+    border: 1px solid rgb(225, 221, 221);
+    background-color: rgb(122, 168, 123);
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    margin-left: -10px;
+    width: 1300px;
+    background-attachment: fixed;
+}
+
+.MES{
+    display: flex;
+    gap: 65px;
+    margin-left: 100px;
+    padding-top: 90px;
+}
+
+p9{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    /* bottom: 10px; */
+    margin-top: -20px;   
+    padding-top: -20px;
+    
+}
+
+.image1{
+    background-color: white;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.image1 img{
+    height: 220px;
+    transition: width 1s, height 1s, transform 1s;   
+}
+
+.image1 img:hover {
+  height: 250px;
+} 
+
+
+/* .image1:hover {
+    width: 250px;
+    height: 220px; 
+} */
+
+.image2{
+    background-color: white;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+}
+.image2 img{
+    height: 220px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.image2 img:hover {
+    height: 250px; 
+    
+}
+
+.image3{
+    background-color: white;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+}
+
+.image3 img{
+    height: 220px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.image3 img:hover {
+    height: 250px; 
+    
+} 
+
+
+
+.image4{
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.image4 img{
+    height: 220px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.image4 img:hover {
+    height: 250px; 
+    
+} 
+
+
+
+
+.partie8{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p10{
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+p11{
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+p12{
+    margin-left: 450px;
+}
+
+
+.MY{
+    /* padding: 10px; */
+    padding-left: 530px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.MY img{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.partie9{
+    background-color: rgb(227, 225, 225);
+    margin-left: -10px;
+    width: 1300px;
+    height: 600px;
+}
+
+
+h5{
+    padding-left: 560px;
+    padding-top: 80px;
+}
+
+p13{
+    padding-left: 530px;
+}
+
+.derniere{
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+}
+
+
+footer{
+    padding-left: 530px;
+}
+
+@media screen and (max-width: 1200px){
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar li{
+        display: flex;
+        gap: 20px;
+     }
+}
+
